@@ -131,10 +131,10 @@ q:before {
 }
 
 table {
-  border-collapse : collapse;
-  border-spacing  : 0;
-  width: 100%;
+  border-spacing: 10px;
+  width: 95%;
 }
+
 th {
   font-weight: bold;
 }
@@ -143,14 +143,17 @@ tr {
   padding: 15px;
 }
 
+td {
+  vertical-align: middle;
+}
 h1 {
-  font-size   : 2.5em;
+  font-size   : 2em;
   font-weight : bold;
   line-height : 150%;
 }
 
 h3, table {
-  font-size : 2em;
+  font-size : 1.75em;
   line-height: 2.5em;
 }
 
@@ -164,12 +167,12 @@ body {
   display          : block;
   width            : auto;
                   /* top, right, bottom, left */
-  padding          : 50px 100px 0px 50px;
+  padding          : 35px 80px 0px 20px;
   background-color : black;
 }
 
 .container {
-  width            : 30%;
+  width            : 375px;
   margin           : 0 auto;
   background-color : #dedede;
 }
@@ -190,16 +193,16 @@ nav {
   margin   : 0px;
   padding  : 0px 0px 10px 0px;
   background-color: black;
-  height: 130px;
+  height: 100px;
 }
 
 .title {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   background-color: black;
   text-align: center;
   padding: 5%;
-  position: 0px 50px 0px 200px;
+  position: 40px 50px 0px 200px;
   float: right;
 }
 
@@ -221,7 +224,7 @@ nav {
 .line {
   background-color: white;
   text-align: center;
-  border-spacing: 15px;
+  border-spacing: 20px;
   /* padding: top right bottom left; */
   /* margin: 5px; */
   /* height: 5px; */
