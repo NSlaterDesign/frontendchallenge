@@ -116,6 +116,9 @@ body, h1, h2, h3, table {
 body {
   line-height : 1;
 }
+header {
+    background-image: url("../Statusbar360dpblack.png");
+}
 
 ol,
 ul {
@@ -210,6 +213,13 @@ nav {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.freq {
+  font-size: .75em;
+  line-height: 1em;
+  font-style: italic;
+  color: red;
+}
+
 .title {
   color: white;
   font-size: 2em;
@@ -248,4 +258,8 @@ nav {
 
 .bus-list {
   margin-top : -15px;
+}
+
+footer {
+    background-image: url("../Navbar360dpblack.png");
 }
