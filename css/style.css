@@ -32,7 +32,6 @@ embed,
 fieldset,
 figcaption,
 figure,
-footer,
 form,
 h1,
 h2,
@@ -40,7 +39,6 @@ h3,
 h4,
 h5,
 h6,
-header,
 hgroup,
 html,
 i,
@@ -108,16 +106,22 @@ section {
   display : block;
 }
 
-body, h1, h2, h3, table {
-  color: #666;
-  font-family: 'Roboto', sans-serif;
-
+body,
+h1,
+h2,
+h3,
+table {
+  color       : #666;
+  font-family : 'Roboto',
+                sans-serif;
 }
+
 body {
   line-height : 1;
 }
+
 header {
-    background-image: url("../Statusbar360dpblack.png");
+  background-image: url(images/Statusbar360dpblack.png) center fixed no-repeat;
 }
 
 ol,
@@ -139,23 +143,24 @@ q:before {
 }
 
 table {
-  border-spacing: 10px;
-  width: 95%;
+  width          : 95%;
+  border-spacing : 10px;
 }
 
 th {
-  font-weight: bold;
+  font-weight : bold;
 }
 
 tr {
-  text-align: center;
-  padding: 15px;
+  padding    : 15px;
+  text-align : center;
 }
 
 td {
-  vertical-align: middle;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: lighter;
+  vertical-align : middle;
+  font-family    : 'Roboto Condensed',
+                   sans-serif;
+  font-weight    : lighter;
 }
 
 h1 {
@@ -164,10 +169,11 @@ h1 {
   line-height : 100%;
 }
 
-h3, table {
-  font-size : 1.75em;
-  line-height: 2.5em;
-  color: 474747;
+h3,
+table {
+  color       : 474747;
+  font-size   : 1.75em;
+  line-height : 2.5em;
 }
 
 body {
@@ -179,17 +185,17 @@ body {
 .arrow-left {
   display          : block;
   width            : auto;
-                  /* top, right, bottom, left */
+  float            : left;
   padding          : 35px 80px 0px 20px;
   background-color : #333;
-  float: left;
+  /* top, right, bottom, left */
 }
 
 .container {
   width            : 375px;
   margin           : 0 auto;
+  color            : 474747;
   background-color : #dedede;
-  color: 474747;
 }
 
 .location {
@@ -203,57 +209,55 @@ body {
 }
 
 nav {
-  position : sticky;
-  width    : 100%;
-  margin   : 0px;
+  position         : sticky;
+  width            : 100%;
+  height           : 80px;
+  margin           : 0px;
+  padding          : 0px 0px 10px 0px;
+  background-color : #333;
+  box-shadow       : 0 1px 3px rgba(0, 0, 0, 0.12),
+                     0 1px 2px rgba(0, 0, 0, 0.24);
   /* padding: top right bottom left; */
-  padding  : 0px 0px 10px 0px;
-  background-color: #333;
-  height: 80px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .freq {
-  font-size: .75em;
-  line-height: 1em;
-  font-style: italic;
-  color: red;
+  color       : red;
+  font-size   : .75em;
+  font-style  : italic;
 }
 
 .title {
-  color: white;
-  font-size: 2em;
-  background-color: #333;
-  text-align: center;
-  margin-left: 60px;
+  float            : right;
+  margin-left      : 60px;
+  color            : white;
+  background-color : #333;
+  text-align       : center;
+  font-size        : 2em;
   /* padding: top right bottom left; */
   /* position: 200px 200px 0px -50px; */
-  float: right;
 }
 
 .arrow {
-  position : static;
-  margin   : -15px 0px 0px 80px;
-  float: left;
-  background-color: green;
-
+  position         : static;
+  float            : left;
+  margin           : -15px 0px 0px 80px;
+  background-color : green;
 }
+
 .menu {
-  color           : #fff;
-  font-size       : 3em;
-  background-color : #333;
-  float            : right;
-  /* width            : 3em; */
-  /* padding: top right bottom left; */
-  margin           : -25px 40px 0px 450px;
   height           : 40px;
+  float            : right;
+  margin           : -25px 40px 0px 450px;
+  color            : #fff;
+  background-color : #333;
+  font-size        : 3em;
 }
 
 .line {
-  background-color: white;
-  text-align: center;
-  border-spacing: 20px;
-  font-weight: bold;
+  border-spacing   : 20px;
+  background-color : white;
+  text-align       : center;
+  font-weight      : bold;
 }
 
 .bus-list {
@@ -261,5 +265,6 @@ nav {
 }
 
 footer {
-    background-image: url("../Navbar360dpblack.png");
+  background-image: url(images/Navbar360dpblack.png)center;
+  padding: 100px -20px 300px 30px;
 }
