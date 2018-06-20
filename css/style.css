@@ -121,7 +121,8 @@ body {
 }
 
 header {
-  background-image: url(images/Statusbar360dpblack.png) center fixed no-repeat;
+  background-image: url(images/Statusbar360dpblack.png) center no-repeat;
+  position: fixed;
 }
 
 ol,
@@ -196,6 +197,8 @@ body {
   margin           : 0 auto;
   color            : 474747;
   background-color : #dedede;
+  max-height: 747px;
+  overflow-y: scroll;
 }
 
 .location {
@@ -267,4 +270,6 @@ nav {
 footer {
   background-image: url(images/Navbar360dpblack.png)center;
   padding: 100px -20px 300px 30px;
+  /* position: fixed; */
+
 }
