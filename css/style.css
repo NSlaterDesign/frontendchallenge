@@ -271,9 +271,10 @@ nav {
 
 footer {
   background-image: url(images/Navbar360dpblack.png)center;
-  /* padding: 100px -20px 300px 30px; */
+  padding: 100px -20px 300px 30px;
   position: fixed;
-  bottom: 0;
+  top: 755px;
+  right:
   width: 100%;
 ]
 
