@@ -145,6 +145,10 @@ q:before {
   content : none;
 }
 
+.east {
+  padding-top: 120px;
+}
+
 table {
   width          : 95%;
   border-spacing : 10px;
@@ -187,9 +191,9 @@ body {
 
 .arrow-left {
   display          : block;
-  width            : auto;
+  /* width            : auto; */
   float            : left;
-  padding          : 35px 80px 0px 20px;
+  padding          : 35px 0px 0px 20px;
   background-color : #333;
   /* top, right, bottom, left */
 }
@@ -218,7 +222,7 @@ nav {
   width            : 375px;
   height           : 80px;
   margin           : 0px;
-  padding          : 0px 0px 10px 0px;
+  padding          : 5px 0px 10px 0px;
   background-color : #333;
   box-shadow       : 0 1px 3px rgba(0, 0, 0, 0.12),
                      0 1px 2px rgba(0, 0, 0, 0.24);
@@ -232,27 +236,26 @@ nav {
 }
 
 .title {
-  float            : right;
-  margin-left      : 60px;
+  float: right;
+  margin-right:  90px;
   color            : white;
   background-color : #333;
   text-align       : center;
   font-size        : 2em;
   /* padding: top right bottom left; */
-  /* position: 200px 200px 0px -50px; */
+  position: 200px 200px 0px -50px;
 }
 
 .arrow {
   position         : static;
   float            : left;
   margin           : -15px 0px 0px 80px;
-  background-color : green;
 }
 
 .menu {
   height           : 40px;
-  float            : right;
-  margin           : -25px 40px 0px 450px;
+  float            : inherit;
+  margin           : -25px 0px 0px 325px;
   color            : #fff;
   background-color : #333;
   font-size        : 3em;
